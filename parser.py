@@ -1,0 +1,1 @@
+with open("untitled.obj","r"),open("untitled.txt")as f,o:o.write("line\n"+"\nline\n".join((" ".join([*v[k[i]-1],*v[k[j]-1]]for i in range(j)for j in range(len(k))for k in[int(f.split("/")[0])for f in l.split(" ")[1:]]for l in f.read().split("\n")if"f "==l[:2]for v in[[[f for f in l.split(" ")[1:]]for l in f.read().split("\n")if"v "==l[:2]]]),)))
